@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int n,i,j,temp=0,a[20],count=0;
-    int h=100;//health
+    int n,i,j,temp=0,a[2000000],count=0;
+    int h=2000;//health
     int inj=1;//injuries
     scanf("%d",&n);//no. of elements
     for(i=0;i<n;++i)
